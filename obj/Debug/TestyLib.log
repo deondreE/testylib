@@ -1,0 +1,27 @@
+﻿  parser.cpp
+C:\Users\deond\source\repos\testylib\src\parser.hpp(12,60): error C2187: syntax error: '...' was unexpected here
+  (compiling source file 'src/parser.cpp')
+      C:\Users\deond\source\repos\testylib\src\parser.hpp(12,60):
+      Did you intend 'typename... Args'?
+  
+C:\Users\deond\source\repos\testylib\src\parser.hpp(13,40): error C2210: 'ReturnType': pack expansions cannot be used as arguments to non-packed parameters in alias templates
+  (compiling source file 'src/parser.cpp')
+  
+C:\Users\deond\source\repos\testylib\src\parser.hpp(13,18): error C2976: 'std::unordered_map': too few template arguments
+  (compiling source file 'src/parser.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\unordered_map(58,7):
+      see declaration of 'std::unordered_map'
+  
+C:\Users\deond\source\repos\testylib\src\parser.hpp(27,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'src/parser.cpp')
+  
+C:\Users\deond\source\repos\testylib\src\parser.hpp(28,1): error C2143: syntax error: missing ')' before '}'
+  (compiling source file 'src/parser.cpp')
+  
+C:\Users\deond\source\repos\testylib\src\parser.hpp(28,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'src/parser.cpp')
+  
+C:\Users\deond\source\repos\testylib\src\parser.cpp(9,8): error C2011: 'MethodRef': 'struct' type redefinition
+      C:\Users\deond\source\repos\testylib\src\parser.hpp(15,8):
+      see declaration of 'MethodRef'
+  

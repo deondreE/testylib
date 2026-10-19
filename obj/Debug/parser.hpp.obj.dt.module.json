@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\deond\\source\\repos\\testylib\\obj\\Debug\\parser.obj",
+            "outputs": [
+                "C:\\Users\\deond\\source\\repos\\testylib\\obj\\Debug\\parser.hpp.obj.dt.module.json",
+                "C:\\Users\\deond\\source\\repos\\testylib\\obj\\Debug\\parser.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
