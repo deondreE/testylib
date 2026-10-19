@@ -1,5 +1,7 @@
 .vs
 build
+obj
+bin
 *.slnx
 *.vcxproj
 *.vcxproj.filters
