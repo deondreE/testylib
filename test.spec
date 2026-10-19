@@ -2,7 +2,7 @@ project: Rational
 
 tests:
 
-- addition int (int, int)
+- addition: int (int, int)
     - input: 7 11
     - output: 18
 
