@@ -1,0 +1,13 @@
+specification ::= "project:" name "\n" "tests:" "\n" test_block
+
+test_block ::= { test_entry }
+
+test_entry ::= "- " test_name ":" signature "\n"
+               "    - input:" data "\n"
+               "    - ouput:" data "\n"
+
+signature ::= type " (" type_list ")"
+
+data ::= literal { " " literal }
+
+literal ::= [0-9]+
