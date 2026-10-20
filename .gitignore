@@ -1,4 +1,5 @@
 .vs
+.idea
 build
 obj
 bin
@@ -6,3 +7,4 @@ bin
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+cmake-build-debug

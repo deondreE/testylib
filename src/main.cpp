@@ -1,4 +1,5 @@
 #include "parser.hpp"
+#include "util.hpp"
 #include <iostream>
 #include <cassert>
 
@@ -22,15 +23,14 @@ void test_scanner()
         std::cout << "Tag: " << m.tag << " | Path: " << m.className << "::" << m.methodName << std::endl;
     }
 
-    assert(results[0].tag == "addition");
+    T_ASSERT(results[0].tag == "addition");
 	std::cout << results[0].className << std::endl;
-    // assert(results[0].className == "Math::Rational");
 
     // Spec Tests
-    assert(!reqs.empty());
-    assert(reqs[0].testName == "addition");
-    assert(reqs[0].inputData == "7 11"); // Captured space-delimited
-    assert(reqs[0].paramTypes.size() == 2);
+    T_ASSERT(!reqs.empty());
+    T_ASSERT(reqs[0].testName == "addition");
+    T_ASSERT(reqs[0].inputData == "7 11"); // Captured space-delimited
+    T_ASSERT(reqs[0].paramTypes.size() == 2);
 
     std::cout << "Spec Parser Success: Loaded " << reqs.size() << " tests." << std::endl;
 }
